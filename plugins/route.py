@@ -1,12 +1,3 @@
-# Jishu Developer 
-# Don't Remove Credit 🥺
-# Telegram Channel @Madflix_Bots
-# Backup Channel @JishuBotz
-# Developer @JishuDeveloper
-
-
-
-
 from aiohttp import web
 
 routes = web.RouteTableDef()
@@ -15,11 +6,3 @@ routes = web.RouteTableDef()
 async def root_route_handler(request):
     return web.json_response("Madflix_Bots")
 
-
-
-
-# Jishu Developer 
-# Don't Remove Credit 🥺
-# Telegram Channel @Madflix_Bots
-# Backup Channel @JishuBotz
-# Developer @JishuDeveloper
