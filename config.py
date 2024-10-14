@@ -13,8 +13,8 @@ APP_ID = int(os.environ.get("APP_ID", "12618934"))
 API_HASH = os.environ.get("API_HASH", "49aacd0bc2f8924add29fb02e20c8a16")
 
 
-OWNER = os.environ.get("OWNER", "") #Owner username
-OWNER_ID = int(os.environ.get("OWNER_ID", "1297128957")) #Owner user id
+OWNER = os.environ.get("OWNER", "7425490417") #Owner username
+OWNER_ID = int(os.environ.get("OWNER_ID", "7425490417")) #Owner user id
 DB_URL = os.environ.get("DB_URL", "mongodb+srv://Autofilterv7:Autofilterv7@cluster0.t5tqe4s.mongodb.net/")
 DB_NAME = os.environ.get("DB_NAME", "Autofilterv7")
 
@@ -38,7 +38,7 @@ TG_BOT_WORKERS = int(os.environ.get("TG_BOT_WORKERS", "4"))
 START_MSG = os.environ.get("START_MESSAGE", "<b>Hello {first}\n\nI can store private files in Specified Channel and other users can access it from special link.</b>")
 try:
     ADMINS=[1297128957]
-    for x in (os.environ.get("ADMINS", "1297128957").split()):
+    for x in (os.environ.get("ADMINS", "7425490417").split()):
         ADMINS.append(int(x))
 except ValueError:
         raise Exception("Your Admins list does not contain valid integers.")
