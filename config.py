@@ -22,7 +22,7 @@ PICS = (environ.get('PICS', 'https://telegra.ph/file/ee0cdd28fdd53d3df26c7.jpg h
 
 
 CHANNEL_ID = int(os.environ.get("CHANNEL_ID", "-1001974433785"))
-FORCE_SUB_CHANNEL = int(os.environ.get("FORCE_SUB_CHANNEL", "-1002048703256"))
+FORCE_SUB_CHANNEL = int(os.environ.get("FORCE_SUB_CHANNEL", "-1002247041357"))
 
 
 FILE_AUTO_DELETE = int(os.getenv("FILE_AUTO_DELETE", "600")) # auto delete in seconds
